@@ -1,7 +1,5 @@
-import numpy as np
-
-a = np.array([1, 2, 3])
-
-print(type(a))
-print(a)
-print(a.ndim)
+numbers = [5, 2, 9, 1]
+numbers.sort()
+print(numbers)  # [1, 2, 5, 9]
+numbers.reverse()
+print(numbers)  
